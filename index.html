@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Undangan Pernikahan - Kyanull & Shenn</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== HERO ===== -->
+  <header class="hero">
+    <p class="hero-sub">The Wedding Of</p>
+    <h1>
+      Kyanull <span class="amp">&</span> Shenn
+    </h1>
+    <p class="hero-date">Sunday, 1 August 2027</p>
+    <p class="scroll-hint">Scroll ↓</p>
+  </header>
+
+  <!-- ===== VERSE ===== -->
+  <section class="verse">
+    <div class="container">
+      <p>"Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu pasangan hidup dari jenismu sendiri, supaya kamu dapat ketenangan hati dan menjadikan kasih sayang di antara kamu."</p>
+      <small>— QS. Ar-Rum : 21</small>
+    </div>
+  </section>
+
+  <!-- ===== COUPLE ===== -->
+  <section>
+    <div class="container">
+      <h2 class="section-title">Mempelai</h2>
+      <p class="section-sub">The Bride & Groom</p>
+      <div class="divider"></div>
+
+      <div class="couple">
+        <div class="person">
+          <img src="Designer.png" alt="kyanull">
+          <h3>Ahmad Ainul Yakin</h3>
+        
+        </div>
+        <div class="heart">&</div>
+        <div class="person">
+          <img src="p.jpeg" alt="kyanull">
+          <h3>Natesa Shayna Indi Aretha</h3>
+        
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COUNTDOWN ===== -->
+  <section class="countdown-section">
+    <div class="container">
+      <h2 class="section-title" style="color:#fff;">Menuju Hari Bahagia</h2>
+      <p class="section-sub">Save The Date</p>
+      <div class="divider"></div>
+
+      <div class="countdown" id="countdown">
+        <div class="box"><span class="num" id="days">0</span><span class="label">Hari</span></div>
+        <div class="box"><span class="num" id="hours">0</span><span class="label">Jam</span></div>
+        <div class="box"><span class="num" id="minutes">0</span><span class="label">Menit</span></div>
+        <div class="box"><span class="num" id="seconds">0</span><span class="label">Detik</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EVENTS ===== -->
+  <section>
+    <div class="container">
+      <h2 class="section-title">Rangkaian Acara</h2>
+      <p class="section-sub">Wedding Events</p>
+      <div class="divider"></div>
+
+      <div class="events">
+        <div class="event-card">
+          <div class="icon">💍</div>
+          <h3>Akad Nikah</h3>
+          <p class="time">09.00 - 10.30 WIB</p>
+          <p>Sabtu, 1 August 2027</p>
+          <p style="margin-top:14px;">Kediaman Mempelai Wanita<br>Jl. Melati No. 12, Surabaya</p>
+        </div>
+        <div class="event-card">
+          <div class="icon">🥂</div>
+          <h3>Resepsi</h3>
+          <p class="time">11.00 - 14.00 WIB</p>
+          <p>Sabtu, 1 August 2027</p>
+          <p style="margin-top:14px;">Gedung Serbaguna<br>Jl. Merdeka No. 45, Surabaya</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section style="background: var(--white);">
+    <div class="container">
+      <h2 class="section-title">Momen Kami</h2>
+      <p class="section-sub">Our Gallery</p>
+      <div class="divider"></div>
+
+      <div class="gallery">
+        <img src="3.jpeg" alt="Momen 1">
+        <img src="4.jpeg" alt="Momen 2">
+        <img src="2.jpeg" alt="Momen 3">
+        <img src="1.jpg.jpeg" alt="Momen 4">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RSVP ===== -->
+  <section class="rsvp">
+    <div class="container">
+      <h2 class="section-title">Konfirmasi Kehadiran</h2>
+      <p class="section-sub">RSVP</p>
+      <div class="divider"></div>
+
+      <form class="rsvp-form" id="rsvpForm">
+        <input type="text" name="nama" placeholder="Nama Lengkap" required>
+        <select name="kehadiran" required>
+          <option value="" disabled selected>Konfirmasi Kehadiran</option>
+          <option value="hadir">Hadir</option>
+          <option value="tidak-hadir">Tidak Hadir</option>
+          <option value="ragu">Masih Ragu</option>
+        </select>
+        <input type="number" name="jumlah" placeholder="Jumlah Tamu" min="1" max="10">
+        <textarea name="pesan" placeholder="Ucapan & Doa untuk Mempelai..."></textarea>
+        <button type="submit" class="btn">Kirim Konfirmasi</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== GIFT ===== -->
+  <section>
+    <div class="container">
+      <h2 class="section-title">Wedding Gift</h2>
+      <p class="section-sub">Tanda Kasih</p>
+      <div class="divider"></div>
+
+      <div class="gift-grid">
+        <div class="gift-card">
+          <h4>Bank BCA</h4>
+          <p class="acc">1234567890</p>
+          <p>a.n. Ahmad Ainul Yakin</p>
+        </div>
+        <div class="gift-card">
+          <h4>Bank Mandiri</h4>
+          <p class="acc">0987654321</p>
+          <p>a.n. Natesa Shayna Indi Aretha</p>
+        </div>
+       
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="names">Kyanull & Shenn</div>
+    <p>Terima kasih atas doa dan restu yang diberikan</p>
+    <p style="margin-top:18px;">Made with ❤</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
